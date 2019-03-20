@@ -310,13 +310,13 @@
 
 	<distributionManagement>
 		<repository>
-			<id>deployment</id>
+			<id>nexus</id>
 			<name>releases</name>
 			<url>http://localhost:8081/nexus/content/repositories/releases/</url>
 		</repository>
 
 		<snapshotRepository>
-			<id>deployment</id>
+			<id>nexus</id>
 			<name>snapshots</name>
 			<url>http://localhost:8081/nexus/content/repositories/snapshots/</url>
 		</snapshotRepository>
